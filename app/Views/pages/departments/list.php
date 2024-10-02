@@ -12,7 +12,7 @@
             </div>
         </div>
     </div>
-    <div class="card-body">
+    <div class="card-body" >
         <div class="container-fluid">
             <table class="table table-striped table-bordered">
                 <colgroup>
