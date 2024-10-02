@@ -1,0 +1,282 @@
+CRITICAL - 2024-09-28 09:29:53 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 581.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:31:25 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 582.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:31:45 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 582.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:31:48 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 582.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:32:13 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:32:30 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:32:31 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:32:32 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:32:32 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:35:13 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 584.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:35:14 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 584.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:40:02 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:40:03 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:40:10 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:40:11 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:43:42 --> Call to undefined function App\Controllers\ci_version()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:46:05 --> Call to undefined function App\Controllers\testing()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 09:46:06 --> Call to undefined function App\Controllers\testing()
+in APPPATH\Controllers\Main.php on line 583.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 10:02:11 --> Call to undefined function App\Controllers\time_add()
+in APPPATH\Controllers\Main.php on line 730.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 10:02:50 --> Call to undefined function App\Controllers\time_add()
+in APPPATH\Controllers\Main.php on line 730.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 10:03:57 --> Call to undefined function App\Controllers\time_add()
+in APPPATH\Controllers\Main.php on line 730.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 10:04:23 --> Call to undefined function App\Controllers\time_add()
+in APPPATH\Controllers\Main.php on line 730.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 10:06:56 --> Call to undefined function App\Controllers\time_add()
+in APPPATH\Controllers\Main.php on line 731.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 10:07:20 --> Call to undefined function App\Controllers\time_add()
+in APPPATH\Controllers\Main.php on line 731.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 10:08:16 --> Call to undefined function App\Controllers\time_add()
+in APPPATH\Controllers\Main.php on line 732.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 12:45:21 --> Undefined index: OVERTIME OUT
+in APPPATH\Controllers\Main.php on line 709.
+ 1 APPPATH\Controllers\Main.php(709): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: OVERTIME OUT', 'APPPATH\\Controllers\\Main.php', 709, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 12:45:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 12:51:35 --> Undefined index: OVERTIME OUT
+in APPPATH\Controllers\Main.php on line 709.
+ 1 APPPATH\Controllers\Main.php(709): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: OVERTIME OUT', 'APPPATH\\Controllers\\Main.php', 709, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 12:51:35 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 12:52:11 --> Undefined variable: IN
+in APPPATH\Controllers\Main.php on line 732.
+ 1 APPPATH\Controllers\Main.php(732): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: IN', 'APPPATH\\Controllers\\Main.php', 732, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 12:52:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 12:52:57 --> Undefined index: OVERTIME OUT
+in APPPATH\Controllers\Main.php on line 709.
+ 1 APPPATH\Controllers\Main.php(709): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: OVERTIME OUT', 'APPPATH\\Controllers\\Main.php', 709, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 12:52:57 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 13:36:35 --> Undefined variable: time2
+in APPPATH\Helpers\time_helper.php on line 19.
+ 1 APPPATH\Helpers\time_helper.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: time2', 'APPPATH\\Helpers\\time_helper.php', 19, [...])
+ 2 APPPATH\Controllers\Main.php(749): time_add('2024-09-01 10:55:00', null, null, '2024-09-01 21:41:00')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 13:40:37 --> Undefined variable: time2
+in APPPATH\Helpers\time_helper.php on line 20.
+ 1 APPPATH\Helpers\time_helper.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: time2', 'APPPATH\\Helpers\\time_helper.php', 20, [...])
+ 2 APPPATH\Controllers\Main.php(749): time_add('2024-09-01 10:55:00', null, null, '2024-09-01 21:41:00')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 13:41:39 --> Undefined variable: time
+in APPPATH\Helpers\time_helper.php on line 17.
+ 1 APPPATH\Helpers\time_helper.php(17): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: time', 'APPPATH\\Helpers\\time_helper.php', 17, [...])
+ 2 APPPATH\Controllers\Main.php(749): time_add('2024-09-01 10:55:00', null, null, '2024-09-01 21:41:00')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:18:59 --> Undefined offset: 1
+in APPPATH\Controllers\Main.php on line 759.
+ 1 APPPATH\Controllers\Main.php(759): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Main.php', 759, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:18:59 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-28 14:20:34 --> Undefined offset: 1
+in APPPATH\Controllers\Main.php on line 759.
+ 1 APPPATH\Controllers\Main.php(759): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offset: 1', 'APPPATH\\Controllers\\Main.php', 759, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-28 14:20:34 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

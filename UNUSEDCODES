@@ -1,0 +1,32 @@
+// *********************************API FETCHING DATA FROM SENTRY*********************************
+    // $curl = curl_init();
+
+    // curl_setopt_array($curl, array(
+    //   CURLOPT_URL => 'https://obliging-sparrow-just.ngrok-free.app/api/Integration/GetTimeLogsBulkData',
+    //   CURLOPT_RETURNTRANSFER => true,
+    //   CURLOPT_ENCODING => '',
+    //   CURLOPT_MAXREDIRS => 10,
+    //   CURLOPT_TIMEOUT => 0,
+    //   CURLOPT_FOLLOWLOCATION => true,
+    //   CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+    //   CURLOPT_CUSTOMREQUEST => 'POST',
+    //   CURLOPT_POSTFIELDS =>'{
+    //     "PersonnelNo": "11",
+    //     "StartDate": "2024-08-27",
+    //     "EndDate": "2024-08-31",
+    //     "start": 0, "max": 100
+    // }',
+    //   CURLOPT_HTTPHEADER => array(
+    //     'Content-Type: application/json',
+    //     'Authorization: Bearer v_1_0.eyJVc2VyUm9sZUlkIjpudWxsLCJVc2VyTmFtZSI6IjEwMTAiLCJDbGFpbXMiOiJBUEkiLCJFeHBpcmF0aW9uIjoiMjAyNC0wOS0wNFQwNjo1MDo1OC45MDEyMzc0WiIsIkRpc3BsYXlOYW1lIjoiQVBJIiwiUGVyc29ubmVsTm8iOm51bGx9.HTZXu6jkbw2Vxzk6ZHYFFskU13flgsvakfRQPDgr4rI='
+    //   ),
+    // ));
+
+    // $response = curl_exec($curl);
+
+    // curl_close($curl);
+
+    // $dataArray = json_decode($response, true);
+    // var_dump($dataArray);die();
+
+// *********************************API FETCHING DATA FROM SENTRY*********************************

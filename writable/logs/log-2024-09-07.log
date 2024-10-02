@@ -1,0 +1,143 @@
+CRITICAL - 2024-09-07 08:31:30 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Main.php on line 645.
+ 1 APPPATH\Controllers\Main.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Main.php', 645, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 08:31:30 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-07 13:41:47 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Main.php on line 645.
+ 1 APPPATH\Controllers\Main.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Main.php', 645, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 13:41:47 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-07 13:46:07 --> Invalid argument supplied for foreach()
+in APPPATH\Controllers\Main.php on line 645.
+ 1 APPPATH\Controllers\Main.php(645): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'APPPATH\\Controllers\\Main.php', 645, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 13:46:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-07 13:49:36 --> Illegal string offset 'logdate'
+in APPPATH\Controllers\Main.php on line 649.
+ 1 APPPATH\Controllers\Main.php(649): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'logdate\'', 'APPPATH\\Controllers\\Main.php', 649, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 13:49:36 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-07 14:39:44 --> Illegal string offset 'logdate'
+in APPPATH\Controllers\Main.php on line 650.
+ 1 APPPATH\Controllers\Main.php(650): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'logdate\'', 'APPPATH\\Controllers\\Main.php', 650, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 14:39:44 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp74\htdocs\ci4_payroll\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp74\htdocs\ci4_payroll\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp74\htdocs\ci4_payroll\system\Debug\Exceptions.php(120): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+in SYSTEMPATH\Format\JSONFormatter.php on line 41.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-09-07 14:42:34 --> Illegal string offset 'logdate'
+in APPPATH\Controllers\Main.php on line 650.
+ 1 APPPATH\Controllers\Main.php(650): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string offset \'logdate\'', 'APPPATH\\Controllers\\Main.php', 650, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 15:06:27 --> usort() expects parameter 2 to be a valid callback, function 'compareByTimeStamp' not found or invalid function name
+in APPPATH\Controllers\Main.php on line 654.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'usort() expects parameter 2 to be a valid callback, function \'compareByTimeStamp\' not found or invalid function name', 'APPPATH\\Controllers\\Main.php', 654, [...])
+ 2 APPPATH\Controllers\Main.php(654): usort([...], 'compareByTimeStamp')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 15:07:09 --> usort() expects parameter 2 to be a valid callback, function 'compareByTimeStamp' not found or invalid function name
+in APPPATH\Controllers\Main.php on line 654.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'usort() expects parameter 2 to be a valid callback, function \'compareByTimeStamp\' not found or invalid function name', 'APPPATH\\Controllers\\Main.php', 654, [...])
+ 2 APPPATH\Controllers\Main.php(654): usort([...], 'compareByTimeStamp')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 15:07:46 --> usort() expects parameter 2 to be a valid callback, function 'compareByTimeStamp' not found or invalid function name
+in APPPATH\Controllers\Main.php on line 666.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'usort() expects parameter 2 to be a valid callback, function \'compareByTimeStamp\' not found or invalid function name', 'APPPATH\\Controllers\\Main.php', 666, [...])
+ 2 APPPATH\Controllers\Main.php(666): usort([...], 'compareByTimeStamp')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 15:08:42 --> usort() expects parameter 2 to be a valid callback, function 'compareByTimeStamp' not found or invalid function name
+in APPPATH\Controllers\Main.php on line 664.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'usort() expects parameter 2 to be a valid callback, function \'compareByTimeStamp\' not found or invalid function name', 'APPPATH\\Controllers\\Main.php', 664, [...])
+ 2 APPPATH\Controllers\Main.php(664): usort([...], 'compareByTimeStamp')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 15:16:41 --> Array to string conversion
+in APPPATH\Controllers\Main.php on line 649.
+ 1 APPPATH\Controllers\Main.php(649): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Main.php', 649, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-09-07 16:53:49 --> Array to string conversion
+in APPPATH\Controllers\Main.php on line 655.
+ 1 APPPATH\Controllers\Main.php(655): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string conversion', 'APPPATH\\Controllers\\Main.php', 655, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->get_data_from_sentry()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
