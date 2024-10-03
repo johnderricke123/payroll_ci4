@@ -85,11 +85,27 @@
 
 //**************************DEDUCTS TOTAL WITH OVERTIME HOURS************************** 
 function time_deducts($ot_total_arr) {
-    //echo json_encode($ot_total_arr[0]);die();
+    // Define the time durations
+    $time1 = '30:16:00'; // 30 hours, 16 minutes, 0 seconds
+    $time2 = '06:16:00'; // 6 hours, 16 minutes, 0 seconds
     
-$date1 = new DateTime('30:16:00');
-$date2 = new DateTime('06:16:00');
-return $date2;
+    // Create DateTime objects
+    $dateTime1 = new DateTime($time1);
+    $dateTime2 = new DateTime($time2);
+    
+    // Calculate the difference
+    $interval = $dateTime1->diff($dateTime2);
+    
+    // Format the result
+    $result = $interval->format('%H:%I:%S');
+    
+    echo "The result of subtracting $time2 from $time1 is: $result\n";
+die();    
+echo json_encode($ot_total_arr);die();    
+// $date1 = new DateTime('30:16:00');
+// echo json_encode($date1);die();
+// $date2 = new DateTime('06:16:00');
+// return $date2;
 //echo json_encode("testing");die();
 
 // $interval = $date1->diff($date2);

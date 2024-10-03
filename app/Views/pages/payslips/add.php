@@ -23,8 +23,8 @@
                     <div class="container-fluid">
                         <div class="row align-items-end">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
-                                <input type="text" name="date_from" id="date_from" value=""/>
-                                <input type="text" name="date_to" id="date_to" value=""/>
+                                <input type="hidden" name="date_from" id="date_from" value=""/>
+                                <input type="hidden" name="date_to" id="date_to" value=""/>
 
                                 <label for="payroll_id" class="control-label">Payroll</label>
                                 <select id="payroll_id" name="payroll_id" class="form-select rounded-0">
@@ -59,7 +59,7 @@
 <!-- ***********************************LATE/UNDERTIME*********************************** -->
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                                 <label for="overtime_total" class="control-label">Overtime Total <sup>mins</sup></label>
-                                <input type="text" class="form-control rounded-0" id="overtime_total" value="" name="overtime_total"  readonly>
+                                <input type="text" class="form-control rounded-0" id="overtime_total" value="" name="overtime_total" >
                             </div>
                         </div>
                     </div>
@@ -279,9 +279,9 @@
                 url: "<?php echo site_url('/Main/get_data_from_sentry')?>",
                 data: {empid: emp_code, StartDate: StartDate, EndDate: EndDate },
                 //contentType: "application/json; charset=utf-8",
-                // dataType: "json",
+                dataType: "json",
                 success: function(data){
-                    console.log(data);return;
+                    //console.log(data);return;
                      var date = new Date(data[1]);
                      console.log(date);
                      if(data[0].length <= 0){
