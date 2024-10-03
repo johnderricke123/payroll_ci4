@@ -58,9 +58,15 @@
                             </div> -->
 <!-- ***********************************LATE/UNDERTIME*********************************** -->
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
-                                <label for="overtime_total" class="control-label">Overtime Total <sup>mins</sup></label>
+                                <label for="overtime_total" class="control-label">Overtime Total</label>
                                 <input type="text" class="form-control rounded-0" id="overtime_total" value="" name="overtime_total" >
                             </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                                <label for="overtime_total" class="control-label">Employee Salary Per Week</label>
+                                <input type="text" class="form-control rounded-0" id="emp_salary" value="" name="emp_salary" readonly>
+                            </div>
+
                         </div>
                     </div>
                 </fieldset>
@@ -112,6 +118,10 @@
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                                 <label for="witholding_tax" class="control-label">Witholding Tax</label>
                                 <input type="number" class="form-control rounded-0 text-end" id="witholding_tax" name="witholding_tax" min="0" step="any" required>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
+                                <label for="overtime_pay" class="control-label">Overtime Pay</label>
+                                <input type="number" class="form-control rounded-0 text-end" id="overtime_pay" name="overtime_pay" min="0" step="any" required value="0" readonly>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                                 <label for="net" class="control-label">Net</label>
@@ -193,8 +203,13 @@
         present = present > 0 ? present : 0;
         late_undertime = late_undertime > 0 ? late_undertime : 0;
         witholding_tax = witholding_tax > 0 ? witholding_tax : 0;
-        var daily = salary / 22;
+        
+        var daily = salary / 6;
         var min = (daily / 8) / 60;
+// ***************CALCULATE EMPLOYEE HOURLY RATE***********************
+        var emp_hourly_rate = daily / 8;
+// ***************CALCULATE EMPLOYEE HOURLY RATE***********************
+        //alert(present * emp_hourly_rate); 
         $('#earnings-table tbody tr').each(function(){
             var amount = $(this).find('[name="earning_amount[]"]').val()
             earnings += parseFloat(amount > 0 ? amount : 0)
@@ -203,7 +218,8 @@
             var amount = $(this).find('[name="deduction_amount[]"]').val()
             deductions += parseFloat(amount > 0 ? amount : 0)
         })
-        net += parseFloat(present) * parseFloat(daily)
+        // net += parseFloat(present) * parseFloat(daily)
+        net += parseFloat(present) * parseFloat(emp_hourly_rate)
         net -= parseFloat(late_undertime) * parseFloat(min)
         net += parseFloat(earnings)
         net -= parseFloat(deductions)
@@ -259,7 +275,8 @@
             placeholder:'Please Select Here',
             width:'100%',
         })
-        $('#present, #late_undertime, #witholding_tax').on('change input', function(){
+        $('#present, #late_undertime, #witholding_tax, #overtime_total').on('change input', function(){
+            //alert("test");
             compute_total()
         })
         $('#employee_id').change(function(){
@@ -271,6 +288,17 @@
 
             var id = $(this).val()
             var sal = $('#employee_id option[value="'+id+'"]').attr('data-salary')
+//*********************DEFINING SALARY COMPUTATION VARIABLES*********************
+    // 8 = "REGULAR NUMBER OF HOURS TO BE RENDERED PER DAY"
+    // 125% = "125% WILL BE MULTIPLED TO EMPLOYEE HOURLY RATE TO GET THE OVERTIME HOURLY RATE"
+            var emp_rate_per_hour = sal/8;
+            var percentage = 125;
+            // Convert percentage to decimal
+            var decimal = percentage / 100;
+            var overtime_hourly_rate = emp_rate_per_hour * decimal;
+            $('#emp_salary').val(sal);
+            //alert(result);return;
+//*********************DEFINING SALARY COMPUTATION VARIABLES*********************
             salary = sal > 0 ? parseFloat(sal) : 0;
             $('[name="salary"]').val(salary)
 
@@ -290,7 +318,10 @@
                      }
                     //return;
                      $('#present').val(data[0]);
-                     $('#overtime_total').val(data[1]);
+                    //$('#overtime_total').val(overtime_hourly_rate * data[1]);
+                    $('#overtime_pay').val(overtime_hourly_rate * data[1]);
+                    $('#overtime_total').val(data[1]);
+                     
 
                      compute_total()
                 }

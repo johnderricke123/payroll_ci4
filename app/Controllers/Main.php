@@ -805,7 +805,7 @@ $ot_time_explode = explode(":",$overtime_total);
 $ot_converted = $ot_time_explode[0] + ($ot_time_explode[1] / 60) + ($ot_time_explode[2] / 3600);
 // echo json_encode($converted."//".$ot_converted);
 $regular_rendered_time = $converted - $ot_converted;
-//die();
+//  die();
 $computed_data[0] =$regular_rendered_time;
 $computed_data[1] =$ot_converted;
 echo json_encode($computed_data);
