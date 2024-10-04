@@ -29,10 +29,7 @@
                             <dt class="col-auto">Department:</dt>
                             <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= $details['department'] ?></dd>
                         </dl>
-                        <dl class="d-flex w-100">
-                            <dt class="col-auto">Designation:</dt>
-                            <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= $details['designation'] ?></dd>
-                        </dl>
+
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -42,13 +39,17 @@
                             <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= $details['payroll_code']." - ".$details['payroll_name'] ?></dd>
                         </dl>
                         <dl class="d-flex w-100">
-                            <dt class="col-auto">Basic Rate/<sup>mo</sup>:</dt>
+                            <dt class="col-auto">Basic Rate/<sup>week</sup>:</dt>
                             <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= number_format($details['salary'], 2) ?></dd>
+                        </dl>
+                        <dl class="d-flex w-100">
+                            <dt class="col-auto">Designation:</dt>
+                            <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= $details['designation'] ?></dd>
                         </dl>
                     </div>
                 </div>
             </div>
-            <hr>
+            <!-- <hr> -->
             <div class="row mb-3">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <fieldset class="border px-3 py-3 border rounded-0">

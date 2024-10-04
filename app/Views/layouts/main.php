@@ -20,7 +20,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
+<!-- **************************PRELOADER************************** -->
+    <link rel="stylesheet" href="<?php echo base_url('public/Elegant-Loading-Indicator-jQuery-Preloader/src/css/preloader.css') ?>" />
+    <script src="<?php echo base_url('public/Elegant-Loading-Indicator-jQuery-Preloader/src/js/jquery.preloader.min.js') ?>"></script>
+<!-- **************************PRELOADER************************** -->
     <style>
         html, body{
             height:100%;
@@ -46,7 +49,7 @@
 
 </head>
 <body class="bg-dark bg-gradient bg-opacity-25">
-    <nav class="navbar navbar-expand-md navbar-dark bg-primary bg-gradient">
+    <nav class="navbar navbar-expand-md navbar-dark bg-secondary bg-gradient">
     <div class="container">
         <a class="navbar-brand" href="https://sourcecodester.com"><?= env('short_name') ?></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -88,5 +91,37 @@
         <?= $this->renderSection('content') ?>
     </div>
 </body>
+
+<!-- LOADER -->
+<div class="col-8 align-self-center someBlock"></div>
+<script>
+    var obj = {},
+        someBlock = $('.someBlock');
+
+    function getValues() {
+        obj.textVal = $('#textInput').val();
+        obj.percentVal = $('#percentInput').val();
+        obj.durationVal = $('#durationInput').val();
+    }
+
+    function start_preloader() {
+        getValues();
+        someBlock.preloader({
+            text: obj.textVal,
+            percent: obj.percentVal,
+            duration: obj.durationVal
+        });
+        $('.form-control').each(function(k, v) {
+            if (v.value.length == 0) $(v).attr('disabled', true);
+        });
+
+    }
+
+    function stop_preloader() {
+        someBlock.preloader('remove');
+        $('.form-control').attr('disabled', false);
+    }
+</script>
+<!-- LOADER -->
 <?= $this->renderSection('custom_js') ?>
 </html>

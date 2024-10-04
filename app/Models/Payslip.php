@@ -14,7 +14,7 @@ class Payslip extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['payroll_id', 'employee_id', 'salary', 'present', 'late_undertime', 'witholding_tax', 'net'];
+    protected $allowedFields    = ['payroll_id', 'employee_id', 'salary', 'present', 'overtime', 'late_undertime', 'witholding_tax', 'net'];
 
     // Dates
     protected $useTimestamps = false;
@@ -39,4 +39,6 @@ class Payslip extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+
 }
