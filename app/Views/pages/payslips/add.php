@@ -59,7 +59,7 @@
                             <!-- ***********************************LATE/UNDERTIME*********************************** -->
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">
                                 <label for="overtime_total" class="control-label">Overtime Total</label>
-                                <input type="text" class="form-control rounded-0" id="overtime_total" value="" name="overtime_total">
+                                <input type="text" class="form-control rounded-0" id="overtime_total" value="" name="overtime">
                             </div>
 
                             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mb-3">

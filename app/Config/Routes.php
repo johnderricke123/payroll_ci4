@@ -62,6 +62,8 @@ $routes->group('Main', ['filter'=>'authenticate'], static function($routes){
     $routes->match(['post'], 'payroll_add', 'Main::payroll_add/$1');
     $routes->match(['post'], 'payslip_edit/(:num)', 'Main::payslip_edit/$1');
     $routes->match(['post'], 'payslip_add', 'Main::payslip_add/$1');
+    
+    $routes->match(['post'], 'print_selected_payslips', 'Main::print_selected_payslips');
 });
 
 

@@ -43,11 +43,42 @@
                             <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= number_format($details['salary'], 2) ?></dd>
                         </dl>
                         <dl class="d-flex w-100">
-                            <dt class="col-auto">Designation:</dt>
-                            <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= $details['designation'] ?></dd>
+                            <!-- <dt class="col-auto">Designation:</dt>
+                            <dd class="col-auto flex-shrink-1 flex-grow-1 px-2"><?= $details['designation'] ?></dd> -->
+                            <div class="row">
+                                <div class="col-sm">
+                                    <label><b>Time Rendered:</b></label>
+                                    <span><?= isset($details['present']) ? (float)$details['present'] : 'N/A'; ?></span>
+                                </div>
+                                <div class="col-sm">
+                                    <label></b>Overtime:</b></label>
+                                    <span><?= isset($details['overtime']) ? (float)$details['overtime'] : 'N/A'; ?></span>
+                                </div>
+                            </div>
+
+
                         </dl>
                     </div>
                 </div>
+
+                <!-- <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <div class="lh-1">
+                            <dl class="d-flex w-100">
+                                <dt class="col-auto">Time Rendered:</dt>
+                                <dd class="col-auto flex-shrink-1 flex-grow-1 px-2">
+                                <?= isset($details['present']) ? (int)$details['present'] : 'N/A'; ?>    
+                                </dd>
+                                <dt class="col-auto">Overtime Rendered:</dt>
+                                <dd class="col-auto flex-shrink-1 flex-grow-1 px-2">
+                                <?= isset($details['overtime']) ?  $details['overtime'] : 'N/A'; ?>
+                                </dd>
+                            </dl>
+                    </div>
+                </div> -->
+
+
+
+
             </div>
             <!-- <hr> -->
             <div class="row mb-3">

@@ -706,4 +706,23 @@ echo json_encode($computed_data);
 // *********************************API FETCHING DATA FROM SENTRY*********************************
     }
 // *******************************************************************************
+
+public function print_selected_payslips(){
+    //var_dump($this->request->getPost());die();
+    $selected_payslips = $this->request->getPost();
+    $data= array();
+    $i = 0;
+//*****************I FETCH TANANG DATA SA SELECTED PAYSLIPS GAMIT ANG payslip_view_base_con FUNCTION SA BASECONTROLLER*****************************
+
+foreach($selected_payslips['payslipID'] as $sp){
+        $id = $sp;
+        $payslip_data = $this->payslip_view_base_con($id);
+        $data[] = $payslip_data;  
+        $i++;
+    }
+
+    $this->data['payslip_data'] = $data;
+    //return $this->response->setJSON($this->data);die();
+    return view('pages/payslips/multiple_payslips', $this->data);
+}
 }

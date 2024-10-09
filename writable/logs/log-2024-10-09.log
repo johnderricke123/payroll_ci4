@@ -1,0 +1,223 @@
+ERROR - 2024-10-09 11:35:24 --> Unknown column 'payslips.late_undertime_deduction' in 'field list'
+CRITICAL - 2024-10-09 11:35:24 --> Unknown column 'payslips.late_undertime_deduction' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`late_undertime_deduction`, `payslips`.`ot_rate`, `payslips`.`ot_hr`, `payslips`.`leg_rate`, `payslips`.`leg_hr`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`late_undertime_deduction`, `payslips`.`ot_rate`, `payslips`.`ot_hr`, `payslips`.`leg_rate`, `payslips`.`leg_hr`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`late_undertime_deduction`, `payslips`.`ot_rate`, `payslips`.`ot_hr`, `payslips`.`leg_rate`, `payslips`.`leg_hr`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`late_undertime_deduction`, `payslips`.`ot_rate`, `payslips`.`ot_hr`, `payslips`.`leg_rate`, `payslips`.`leg_hr`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BaseController.php(113): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Main.php(719): App\Controllers\BaseController->payslip_view_base_con('1')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-09 11:35:55 --> Unknown column 'payslips.sp_rate' in 'field list'
+CRITICAL - 2024-10-09 11:35:55 --> Unknown column 'payslips.sp_rate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_rate`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BaseController.php(108): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Main.php(719): App\Controllers\BaseController->payslip_view_base_con('1')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-10-09 11:36:06 --> Unknown column 'payslips.sp_hr' in 'field list'
+CRITICAL - 2024-10-09 11:36:06 --> Unknown column 'payslips.sp_hr' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `payslips`.*, CONCAT(employees.last_name, \', \', `employees`.`first_name`, COALESCE(CONCAT(\' \', employees.middle_name), \'\')) as `name`, `employees`.`code`, CONCAT(departments.code, \' - \', departments.name) as department, CONCAT(designations.code, \' - \', designations.name) as designation, `payrolls`.`code` as `payroll_code`, `payrolls`.`title` as `payroll_name`, `payslips`.`present`, `payslips`.`late_undertime`, `payslips`.`sp_hr`, `payslips`.`salary`
+FROM `payslips`
+INNER JOIN `payrolls` ON `payslips`.`payroll_id` = `payrolls`.`id`
+INNER JOIN `employees` ON `payslips`.`employee_id` = `employees`.`id`
+INNER JOIN `departments` ON `employees`.`department_id` = `departments`.`id`
+INNER JOIN `designations` ON `employees`.`designation_id` = `designations`.`id`
+WHERE `payslips`.`id` = 1
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(249): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(622): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\BaseController.php(107): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Main.php(719): App\Controllers\BaseController->payslip_view_base_con('1')
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:36:13 --> Undefined index: ot_rate
+in APPPATH\Controllers\BaseController.php on line 113.
+ 1 APPPATH\Controllers\BaseController.php(113): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ot_rate', 'APPPATH\\Controllers\\BaseController.php', 113, [...])
+ 2 APPPATH\Controllers\Main.php(719): App\Controllers\BaseController->payslip_view_base_con('1')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:36:27 --> Undefined index: sp_rate
+in APPPATH\Controllers\BaseController.php on line 117.
+ 1 APPPATH\Controllers\BaseController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sp_rate', 'APPPATH\\Controllers\\BaseController.php', 117, [...])
+ 2 APPPATH\Controllers\Main.php(719): App\Controllers\BaseController->payslip_view_base_con('1')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:36:37 --> Undefined index: sp_hr
+in APPPATH\Controllers\BaseController.php on line 118.
+ 1 APPPATH\Controllers\BaseController.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sp_hr', 'APPPATH\\Controllers\\BaseController.php', 118, [...])
+ 2 APPPATH\Controllers\Main.php(719): App\Controllers\BaseController->payslip_view_base_con('1')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:36:44 --> Undefined variable: ot_rate
+in APPPATH\Controllers\BaseController.php on line 124.
+ 1 APPPATH\Controllers\BaseController.php(124): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: ot_rate', 'APPPATH\\Controllers\\BaseController.php', 124, [...])
+ 2 APPPATH\Controllers\Main.php(719): App\Controllers\BaseController->payslip_view_base_con('1')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:37:01 --> Undefined index: ot_hr
+in APPPATH\Views\pages\payslips\multiple_payslips.php on line 100.
+ 1 APPPATH\Views\pages\payslips\multiple_payslips.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: ot_hr', 'APPPATH\\Views\\pages\\payslips\\multiple_payslips.php', 100, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\payslips\\multiple_payslips.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/payslips/multiple_payslips', [], true)
+ 5 APPPATH\Controllers\Main.php(726): view('pages/payslips/multiple_payslips', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:40:44 --> Undefined index: total_overtime
+in APPPATH\Views\pages\payslips\multiple_payslips.php on line 104.
+ 1 APPPATH\Views\pages\payslips\multiple_payslips.php(104): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: total_overtime', 'APPPATH\\Views\\pages\\payslips\\multiple_payslips.php', 104, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\payslips\\multiple_payslips.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/payslips/multiple_payslips', [], true)
+ 5 APPPATH\Controllers\Main.php(726): view('pages/payslips/multiple_payslips', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:41:14 --> Undefined index: leg_hr
+in APPPATH\Views\pages\payslips\multiple_payslips.php on line 100.
+ 1 APPPATH\Views\pages\payslips\multiple_payslips.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: leg_hr', 'APPPATH\\Views\\pages\\payslips\\multiple_payslips.php', 100, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\payslips\\multiple_payslips.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/payslips/multiple_payslips', [], true)
+ 5 APPPATH\Controllers\Main.php(726): view('pages/payslips/multiple_payslips', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:41:41 --> Undefined index: sp_hr
+in APPPATH\Views\pages\payslips\multiple_payslips.php on line 105.
+ 1 APPPATH\Views\pages\payslips\multiple_payslips.php(105): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: sp_hr', 'APPPATH\\Views\\pages\\payslips\\multiple_payslips.php', 105, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\payslips\\multiple_payslips.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/payslips/multiple_payslips', [], true)
+ 5 APPPATH\Controllers\Main.php(726): view('pages/payslips/multiple_payslips', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:47:53 --> Undefined index: late_undertime_deduction
+in APPPATH\Views\pages\payslips\multiple_payslips.php on line 72.
+ 1 APPPATH\Views\pages\payslips\multiple_payslips.php(72): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: late_undertime_deduction', 'APPPATH\\Views\\pages\\payslips\\multiple_payslips.php', 72, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\payslips\\multiple_payslips.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/payslips/multiple_payslips', [], true)
+ 5 APPPATH\Controllers\Main.php(726): view('pages/payslips/multiple_payslips', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-10-09 11:50:34 --> Undefined index: payslipID
+in APPPATH\Controllers\Main.php on line 717.
+ 1 APPPATH\Controllers\Main.php(717): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: payslipID', 'APPPATH\\Controllers\\Main.php', 717, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->print_selected_payslips()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
